@@ -1,5 +1,5 @@
 document.getElementById("dashboard").addEventListener("click", function(){
-    window.location.href="/P15-Dev-Board/blog.html";
+    window.location.href="../blog.html";
 })
 
 document.getElementById("date-main").innerText =new Date().toDateString();
