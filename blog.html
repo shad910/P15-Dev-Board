@@ -62,23 +62,36 @@
     <section class="w-11/12 mx-auto px-3">
       <!-- Header Section -->
       <header class="pt-3 mb-5">
-        <nav class="lg:flex items-center justify-between p-5 bg-white-bg rounded-2xl">
-            <div class="flex justify-center items-center gap-x-1">
-                <img class="w-10 h-10" src="./images/logo.png" alt="DevBoard logo">
-                <a class="text-2xl font-light">Dev<span class="font-bold">Board</span></a>
-            </div>
-            <div>
-              <button id="back-btn" class="btn bg-[#3752FD] text-white hover:text-[#3752FD] hover:bg-white hover:border-[#3752FD]">Back to Desk</button>
-            </div>
+        <nav
+          class="flex items-center justify-between p-2 md:p-5 bg-white-bg rounded-2xl"
+        >
+          <div class="flex justify-center items-center gap-x-1">
+            <img
+              class="w-7 h-7 md:w-10 md:h-10"
+              src="./images/logo.png"
+              alt="DevBoard logo"
+            />
+            <a class="text-lg md:text-2xl font-light"
+              >Dev<span class="font-bold">Board</span></a
+            >
+          </div>
+          <div>
+            <button
+              id="back-btn"
+              class="btn bg-[#3752FD] text-white hover:text-[#3752FD] hover:bg-white hover:border-[#3752FD]"
+            >
+              Back to Desk
+            </button>
+          </div>
         </nav>
-    </header>
+      </header>
 
       <main class="pb-12">
         <h1 class="text-2xl font-extrabold text-center mb-3">Blogs</h1>
         <!-- Blog Container -->
         <section>
           <!-- Card-1 -->
-          <div class="bg-white-bg rounded-2xl p-5 mb-3">
+          <div class="bg-white-bg rounded-2xl p-3 md:p-5 mb-3">
             <!-- Title -->
             <h3 class="text-lg font-bold mb-2">
               Question-1: What are the different ways to select an element in
@@ -90,23 +103,25 @@
             ></div>
 
             <!-- Description -->
-            <p class="text-[#00303C] ">
-                There are several ways to select an element in the DOM using JavaScript. Here are some of the most frequently used methods:
+            <p class="text-[#00303C]">
+              There are several ways to select an element in the DOM using
+              JavaScript. Here are some of the most frequently used methods:
             </p>
-            <ul class="list-disc list-inside ml-6 mt-2 font-medium">
-                <li>getElementById()</li>
-                <li>getElementsByClassName()</li>
-                <li>getElementsByTagName()</li>
-                <li>querySelector()</li>
-                <li>querySelectorAll()</li>
-                <li>closest()</li>
+            <ul class="list-disc list-inside lg:ml-6 mt-2 font-medium">
+              <li>getElementById()</li>
+              <li>getElementsByClassName()</li>
+              <li>getElementsByTagName()</li>
+              <li>querySelector()</li>
+              <li>querySelectorAll()</li>
+              <li>closest()</li>
             </ul>
           </div>
           <!-- Card-2 -->
-          <div class="bg-white-bg rounded-2xl p-5 mb-3">
+          <div class="bg-white-bg rounded-2xl p-3 md:p-5 mb-3">
             <!-- Title -->
             <h3 class="text-lg font-bold mb-2">
-              Question-2: What is the difference between innerHTML, innerText, and textContent ?
+              Question-2: What is the difference between innerHTML, innerText,
+              and textContent ?
             </h3>
 
             <div
@@ -115,14 +130,19 @@
 
             <!-- Description -->
             <p class="text-[#00303C]">
-                <q class="font-medium">innerHTML</q> retrieves or sets HTML content, including tags, while <q class="font-medium">innerText</q> gets only visible text, ignoring hidden elements. <q class="font-medium">textContent</q> extracts all text, including hidden content and this is the fastest option.
+              <q class="font-medium">innerHTML</q> retrieves or sets HTML
+              content, including tags, while
+              <q class="font-medium">innerText</q> gets only visible text,
+              ignoring hidden elements.
+              <q class="font-medium">textContent</q> extracts all text,
+              including hidden content and this is the fastest option.
             </p>
           </div>
           <!-- Card-3 -->
-          <div class="bg-white-bg rounded-2xl p-5 mb-3">
+          <div class="bg-white-bg rounded-2xl p-3 md:p-5 mb-3">
             <!-- Title -->
             <h3 class="text-lg font-bold mb-2">
-                Question-3: What is event delegation in the DOM?
+              Question-3: What is event delegation in the DOM?
             </h3>
 
             <div
@@ -131,14 +151,17 @@
 
             <!-- Description -->
             <p class="text-[#00303C]">
-                Event delegation is a technique where a parent element handles events for its child elements using event bubbling. Instead of adding event listeners to multiple child elements, a single listener on the parent can efficiently manage interactions.
+              Event delegation is a technique where a parent element handles
+              events for its child elements using event bubbling. Instead of
+              adding event listeners to multiple child elements, a single
+              listener on the parent can efficiently manage interactions.
             </p>
           </div>
           <!-- Card-4 -->
-          <div class="bg-white-bg rounded-2xl p-5 mb-3">
+          <div class="bg-white-bg rounded-2xl p-3 md:p-5 mb-3">
             <!-- Title -->
             <h3 class="text-lg font-bold mb-2">
-                Question-4: What is event bubbling in the DOM?
+              Question-4: What is event bubbling in the DOM?
             </h3>
 
             <div
@@ -147,14 +170,18 @@
 
             <!-- Description -->
             <p class="text-[#00303C]">
-                Event bubbling is a mechanism where an event starts from the target element and propagates up through its ancestors in the DOM. This allows parent elements to capture and handle events triggered by their child elements.
+              Event bubbling is a mechanism where an event starts from the
+              target element and propagates up through its ancestors in the DOM.
+              This allows parent elements to capture and handle events triggered
+              by their child elements.
             </p>
           </div>
           <!-- Card-5 -->
-          <div class="bg-white-bg rounded-2xl p-5 pb-3">
+          <div class="bg-white-bg rounded-2xl p-3 md:p-5 pb-3">
             <!-- Title -->
             <h3 class="text-lg font-bold mb-2">
-                Question-5: How do you create, add, and remove elements using JavaScript?
+              Question-5: How do you create, add, and remove elements using
+              JavaScript?
             </h3>
 
             <div
@@ -163,10 +190,14 @@
 
             <!-- Description -->
             <p class="text-[#00303C]">
-                I can create a JavaScript element with <q class="font-medium">document.createElement()</q>, add it using <q class="font-medium">appendChild()</q> or <q class="font-medium">append()</q>, and remove it with <q class="font-medium">removeChild()</q> or <q class="font-medium">remove()</q>.
+              I can create a JavaScript element with
+              <q class="font-medium">document.createElement()</q>, add it using
+              <q class="font-medium">appendChild()</q> or
+              <q class="font-medium">append()</q>, and remove it with
+              <q class="font-medium">removeChild()</q> or
+              <q class="font-medium">remove()</q>.
             </p>
           </div>
-
         </section>
       </main>
     </section>

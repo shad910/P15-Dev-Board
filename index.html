@@ -63,38 +63,42 @@
       <!-- Header Section -->
       <header class="pt-3 mb-5">
         <nav
-          class="lg:flex items-center justify-between p-5 bg-white-bg rounded-2xl"
+          class="flex items-center justify-between p-2 md:p-5 bg-white-bg rounded-2xl"
         >
           <div class="flex justify-center items-center gap-x-1">
             <img
-              class="w-10 h-10"
+              class="w-7 h-7 md:w-10 md:h-10"
               src="./images/logo.png"
               alt="DevBoard logo"
             />
-            <a class="text-2xl font-light"
+            <a class="text-lg md:text-2xl font-light"
               >Dev<span class="font-bold">Board</span></a
             >
           </div>
           <div
-            class="mt-5 lg:mt-0 flex justify-center items-center gap-4 lg:gap-7"
+            class="lg:mt-0 flex justify-center items-center gap-2 md:gap-4 lg:gap-7"
           >
             <div
               class="flex justify-center items-center gap-3 bg-whites-bg rounded-[32px] px-3 py-2"
             >
               <div class="flex justify-center items-center">
                 <img
-                  class="w-5"
+                  class="w-4 md:w-5"
                   src="./images/checkbox.png"
                   alt="Checkbox Icon"
                 />
               </div>
-              <h1 id="work-done" class="text-2xl font-bold">23</h1>
+              <h1 id="work-done" class="text-lg md:text-2xl font-bold">23</h1>
             </div>
             <div
               class="rounded-full p-2 bg-whites-bg flex justify-center items-center"
             >
               <button id="changeColorBtn">
-                <img class="w-[30px]" src="./images/theme-btn.png" alt="" />
+                <img
+                  class="w-6 md:w-[30px]"
+                  src="./images/theme-btn.png"
+                  alt=""
+                />
               </button>
             </div>
           </div>
@@ -105,7 +109,9 @@
       <main class="lg:flex gap-3 pb-12">
         <section class="bg-white-bg rounded-2xl">
           <!-- Dashboard -->
-          <div class="grid grid-cols-1 lg:grid-cols-4 gap-5 mb-4 p-4">
+          <div
+            class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-3 lg:gap-5 mb-4 p-4"
+          >
             <div
               class="col-span-1 bg-whites-bg rounded-xl flex justify-center items-center gap-3 p-2"
             >
@@ -127,7 +133,7 @@
               id="dashboard"
               class="lg:col-span-2 bg-gradient-to-br from-[#3752fd] via-[#6c7ffa] to-[#9ba8f8] rounded-xl flex items-center gap-5 py-3 cursor-pointer"
             >
-              <img class="ml-10" src="./images/board.png" alt="" />
+              <img class="lg:ml-10" src="./images/board.png" alt="" />
               <p class="text-white text-lg font-medium">
                 Discover Something<br />New Today!
               </p>
@@ -150,7 +156,7 @@
 
           <!-- Task Assigned Section Container-->
           <section
-            class="grid grid-cols-1 lg:grid-cols-3 gap-4 p-4 rounded-2xl"
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 rounded-2xl"
           >
             <!-- Card-1 -->
             <div class="task bg-whites-bg p-5 rounded-2xl">
@@ -354,7 +360,6 @@
                 </div>
               </div>
             </div>
-
           </section>
         </section>
 
